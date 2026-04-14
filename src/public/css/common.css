@@ -1,0 +1,86 @@
+.header {
+    background: #000;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width:1230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 24px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-left: 1px solid #c3e6cd;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.alert-error {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.header__categories {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+.header__categories a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header__category-link {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form__todo-create {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.form__input,
+.form__select,
+.form__button {
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.form__input {
+    flex: 1;
+    min-width: 300px;
+    padding: 10px;
+    outline: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+}

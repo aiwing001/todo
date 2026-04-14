@@ -1,0 +1,160 @@
+.todo-create,
+.todo-search,
+h2,
+.todo-item {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin: 40px auto 10px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.todo-create__title {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.form__input--box,
+.form__select {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form__input--box {
+    width: 500px;
+    padding: 10px;
+}
+
+.form__select {
+    width: 170px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+.form__button {
+    min-width: 50px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+.form__todo-create .form__button {
+    width: 150px;
+}
+
+.update {
+    background: blue;
+}
+
+.delete {
+    background: red;
+}
+
+.todo-item {
+    margin-bottom: 15px;
+}
+
+.todo-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    gap: 10px;
+}
+
+.todo-box form:first-child {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    gap: 10px;
+}
+
+.todo-box .form__input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+}
+
+.todo-box .form__button {
+    height: 20px;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form__select option {
+    background: #fff;
+    color: #000;
+}
+
+.select-category {
+    width: 170px;
+    padding: 2px 8px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    margin-right: 65px;
+    margin-left: 10px;
+}
+
+.todo-box form:first-of-type {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    gap: 10px;
+}
+
+.todo-box .form__input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+}
+
+.todo-box .form__button {
+    height: 32px;
+    margin-left: 0;
+}
+
+.todo-box form:last-of-type {
+    flex-shrink: 0;
+}
+
+.todo-header {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 40px auto 10px;
+    gap: 10px;
+}
+
+.header-todo {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.header-category {
+    width: 370px;
+}
